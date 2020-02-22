@@ -3,6 +3,7 @@ pipeline {
             filename 'Dockerfile'
             args '--entrypoint=/bin/bash'
     }
+    }
     stages {
         stage('Test') {
             steps {
