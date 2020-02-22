@@ -1,7 +1,7 @@
 pipeline {
     agent { dockerfile {
             filename 'Dockerfile'
-            args '--entrypoint=/bin/bash'
+            args '--entrypoint='
     }
     }
     stages {
