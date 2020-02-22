@@ -8,7 +8,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd ./ControllerTests' 
-                sh 'dotnet test'
+                sh 'ls -al'
             }
         }
     }
