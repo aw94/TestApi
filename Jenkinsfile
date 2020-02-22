@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'ls -al'
+                sh 'dotnet test'
             }
         }
     }
