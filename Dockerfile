@@ -10,4 +10,4 @@ COPY --from=build ./out/ .
 RUN ls -al
 ENV ASPNETCORE_ENVIRONMENT = ${environment}
 ENV ASPNETCORE_URLS http://+:6001
-ENTRYPOINT ["dotnet", "TestApi.dll"]
+ENTRYPOINT ["dotnet", "app/TestApi.dll"]
